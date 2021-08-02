@@ -1,0 +1,13 @@
+include(CMakeFindDependencyMacro)
+
+# You want to specify REQUIRED dependencies that your package needs.
+# The following are some examples on how to do so.
+# find_dependency(stduuid)
+# find_dependency(RapidJSON)
+# find_dependency(CURL)
+
+include("${CMAKE_CURRENT_LIST_DIR}/@targets_export_name@.cmake")
+
+@PACKAGE_INIT@
+
+check_required_components(example_executable)
