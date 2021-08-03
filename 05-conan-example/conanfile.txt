@@ -1,0 +1,10 @@
+[requires]
+catch2/2.9.2
+fakeit/2.0.9
+
+[generators]
+cmake_paths
+cmake_find_package
+
+[options]
+fakeit:integration=catch
