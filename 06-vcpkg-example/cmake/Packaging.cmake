@@ -12,3 +12,14 @@ include(cmake/PackagingWIX.cmake)
 
 # This must always be after CPACK variables
 include(CPack)
+
+cpack_add_component(
+    ${runtime_component}
+    DISPLAY_NAME Runtime
+    DESCRIPTION "Files required by dependencies to run.")
+
+cpack_add_component(
+    ${development_component}
+    DISPLAY_NAME Development
+    DESCRIPTION "Files required by dependencies to build or help during development."
+    DEPENDS ${runtime_component})
