@@ -1,1 +1,1 @@
-CMake Packaging Example
+CMake Package Config Files Example

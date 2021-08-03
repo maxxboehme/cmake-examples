@@ -1,3 +1,4 @@
+
 find_package(Catch2 REQUIRED)
 
 # Allows for faster build times when iterating on tests.

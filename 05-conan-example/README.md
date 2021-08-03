@@ -1,1 +1,1 @@
-CMake Packaging Example
+CMake Conan Integration Example

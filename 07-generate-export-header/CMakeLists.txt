@@ -10,7 +10,11 @@ project(PackageConfigExampleProject
     LANGUAGES CXX)
 
 include(cmake/StandardProjectSettings.cmake)
+include(cmake/Utilities.cmake)
 include(GNUInstallDirs)
+include(GenerateExportHeader)
+
+include(cmake/SetupConan.cmake)
 
 add_subdirectory(library)
 
