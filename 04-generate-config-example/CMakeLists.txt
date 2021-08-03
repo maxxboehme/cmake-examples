@@ -9,6 +9,8 @@ project(PackageConfigExampleProject
     HOMEPAGE_URL ${project_homepage}
     LANGUAGES CXX)
 
+include(cmake/StandardProjectSettings.cmake)
+include(cmake/Utilities.cmake)
 include(GNUInstallDirs)
 
 add_subdirectory(library)

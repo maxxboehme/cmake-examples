@@ -10,6 +10,7 @@ project(PackageConfigExampleProject
     LANGUAGES CXX)
 
 include(cmake/StandardProjectSettings.cmake)
+include(cmake/Utilities.cmake)
 
 add_subdirectory(library)
 add_subdirectory(executable)

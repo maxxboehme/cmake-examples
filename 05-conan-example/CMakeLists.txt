@@ -10,6 +10,7 @@ project(PackageConfigExampleProject
     LANGUAGES CXX)
 
 include(cmake/StandardProjectSettings.cmake)
+include(cmake/Utilities.cmake)
 include(GNUInstallDirs)
 
 include(cmake/SetupConan.cmake)
